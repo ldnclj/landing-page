@@ -1,10 +1,8 @@
-# org.londonclojurians.landing-page
+# London Clojurians Landing page
+A website to provide details of the London Clojurians community.
 
-FIXME: Write a one-line description of your library/project.
+The website was developed with ClojureScript, using figwheel-main as the build tool
 
-## Overview
-
-FIXME: Write a paragraph about the library/project and highlight its goals.
 
 ## Development
 
@@ -20,18 +18,17 @@ get a Browser Connected REPL. An easy way to try it is:
 
 and you should see an alert in the browser window.
 
-To clean all compiled files:
+To clean all compiled files during development:
 
     rm -rf target/public
 
 To create a production build run:
 
-	rm -rf target/public
-	clojure -A:fig:min
+    clojure -A:fig:live
 
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2021 London Clojurians
 
-Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
+Distributed under the Creative Commons Attribution Share-Alike 4.0 International
