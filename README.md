@@ -8,7 +8,7 @@ The website was developed with ClojureScript, using figwheel-main as the build t
 
 To get an interactive development environment run:
 
-    clojure -A:fig:build
+    clojure -M:fig:build
 
 This will auto compile and send all changes to the browser without the
 need to reload. After the compilation process is complete, you will
@@ -24,7 +24,7 @@ To clean all compiled files during development:
 
 To create a production build run:
 
-    clojure -A:fig:live
+    clojure -M:fig:live
 
 
 ## License
