@@ -399,33 +399,30 @@
     [:div {:class "content"}
      [:h2 {:class "title has-text-centered"}
       "London Clojurians Code Of Conduct"]
-     [:p "All members of the London Clojurians community are required to act and interact with other members with respect to the code of conduct, providing a harassment-free experience and equality for all. Negative or disparaging words or actions should not be directed at people due to their age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation."]
+     [:p "All members of the London Clojurians community are required to act toward and interact with other members with respect, providing a harassment-free experience and equality for all. Negative or disparaging words or actions should not be directed at people due to their age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, colour, religion, or sexual identity and orientation."]
 
-     [:p "If you experience or witness any harassment or behaviour that makes you feel uncomfortable in any way, please let us know in person at events or via the London Clojurian Organisers.  The quicker we know about an issue, the sooner we can consider how to resolve it and prevent further issues"]
+     [:p "We do not tolerate harassment in any form. Sexual language and imagery is not appropriate for any form of communication. Participants violating these rules will be expelled from the community at the sole discretion of the community organisers."]
 
-     [:h3 {:class "title"}
-      "Harassment (Quick Version)"]
-     [:p "Clojurians is dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of Slack participants in any form. Sexual language and imagery is not appropriate for any chat topic. Participants violating these rules will be expelled from the group at the sole discretion of the group administrators."]
+     [:p "If you experience or witness any harassment or behaviour that makes you feel uncomfortable in any way, please let us know in person at events or via the London Clojurian Organisers."]
 
      [:h3 {:class "title"}
-      "Harassment (Less Quick Version)"]
+      "Harassment"]
      [:p "Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images, deliberate intimidation, stalking, sustained disruption of discussions or other events, and unwelcome sexual attention."]
-     [:p "Participants asked to stop any harassing behavior are expected to comply immediately."]
+     [:p "Participants asked to stop any harassing behaviour are expected to comply immediately."]
      [:p "If you are being harassed, notice that someone else is being harassed, or have any other concerns, please notify a Slack administrator immediately."]
      [:p "We expect participants to follow these rules in all discussions in our Slack channels. We think people should follow these rules outside of Slack too!"]
 
      [:h3 {:class "title"}
       "Our Standards"]
-
-     [:p "Examples of behavior that contributes to a positive environment for our community include:"]
+     [:p "Examples of behaviour that contributes to a positive environment for our community include:"]
      [:ul
       [:li "Demonstrating empathy and kindness toward other people"]
       [:li "Being respectful of differing opinions, viewpoints, and experiences"]
       [:li "Giving and gracefully accepting constructive feedback"]
-      [:li "Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience"]
+      [:li "Accepting responsibility and apologising to those affected by our mistakes, and learning from the experience"]
       [:li "Focusing on what is best not just for us as individuals, but for the overall community"]]
 
-     [:p "Examples of unacceptable behavior include:"]
+     [:p "Examples of unacceptable behaviour include:"]
      [:ul
       [:li "The use of sexualized language or imagery, and sexual attention or advances of any kind"]
       [:li "Trolling, insulting or derogatory comments, and personal or political attacks"]
@@ -435,27 +432,21 @@
 
      [:h3 {:class "title"}
       "Enforcement Responsibilities"]
-
-     [:p "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful."]
-     [:p "Community leaders have the right and responsibility to remove any behavior that is not aligned to this Code of Conduct and will communicate reasons for moderation decisions when appropriate."]
+     [:p "Community leaders are responsible for clarifying and enforcing our standards of acceptable behaviour and will take appropriate and fair corrective action in response to any behaviour that they deem inappropriate, threatening, offensive, or harmful."]
+     [:p "Community leaders have the right and responsibility to remove any behaviour that is not aligned to this Code of Conduct and will communicate reasons for moderation decisions when appropriate."]
 
      [:h3 {:class "title"}
       "Scope"]
-
      [:p "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event."]
 
      [:h3 {:class "title"}
       "Enforcement"]
-     [:p "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement All complaints will be reviewed and investigated promptly and fairly."]
-     [:p "All community leaders are obligated to respect the privacy and security of the reporter of any incident."]
-
-     ]]]) ;; End of code-of-content
-
+     [:p "Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported to the community leaders responsible for enforcement All complaints will be reviewed and investigated promptly and fairly."]
+     [:p "All community leaders are obligated to respect the privacy and security of the reporter of any incident."]]]]) ;; End of code-of-content
 
 
 ;; helper functions
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 
 (defn level-separator
   "A separator to provide a gap between components.
