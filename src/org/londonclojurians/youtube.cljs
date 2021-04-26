@@ -21,7 +21,7 @@
     :title "Clojure and gRPC - overcoming FOMO - Fear of Missing Out"}
    {:id    "0V_F9Ko_Ic8"
     :title "Discoverable Hypermedia-Driven RESTful Web Services in Clojure"}
-   {:id    "ivtdzkvl58y"
+   {:id    "IvTDzKVL58Y"
     :title "Dark CIDER - lesser known features for Clojure development"}
    {:id    "pgNp4Lk3gf0"
     :title "babashka and sci - Clojure command line tool internals"}
