@@ -245,7 +245,16 @@
      [:div {:class "column is-6"}
       [:h2 {:class "title has-text-centered"}
        "Weekly live broadcasts"]
-      [:p "Live coding and code walk-through of coding challenges and building applications with Clojure and ClojureScript"]]]]])
+      [:div {:class "content"}
+       [:p "Walk through solutions to code challenges, build websites and learn Clojure CLI tools with "
+        [:a {:href "https://practicalli.github.io/"
+             :target "_blank"} "Practicalli"]]
+       [:h6 {:class "title is-size-6"} "Playlists of recorded broadcasts"]
+       [:ul
+        [:li [:a {:href "https://www.youtube.com/playlist?list=PLpr9V-R8ZxiDjyU7cQYWOEFBDR1t7t0wv"
+                      :target "_blank"} "Weekly Clojure study group"]]
+        [:li [:a {:href "https://www.youtube.com/playlist?list=PLpr9V-R8ZxiDB_KGrbliCsCUrmcBvdW16"
+              :target "_blank"} "4Clojure.com code solutions"]]]]]]]])
 
 
 (defn connect-with-the-community
