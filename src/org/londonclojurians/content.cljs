@@ -409,8 +409,8 @@
       "Harassment"]
      [:p "Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images, deliberate intimidation, stalking, sustained disruption of discussions or other events, and unwelcome sexual attention."]
      [:p "Participants asked to stop any harassing behaviour are expected to comply immediately."]
-     [:p "If you are being harassed, notice that someone else is being harassed, or have any other concerns, please notify a Slack administrator immediately."]
-     [:p "We expect participants to follow these rules in all discussions in our Slack channels. We think people should follow these rules outside of Slack too!"]
+     [:p "If you are being harassed, notice that someone else is being harassed, or have any other concerns, please notify a community organiser immediately."]
+     [:p "We expect participants to follow these rules in all interactions with the community. We think people should follow these rules outside of the community too!"]
 
      [:h3 {:class "title"}
       "Our Standards"]
