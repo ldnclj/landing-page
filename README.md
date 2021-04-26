@@ -22,13 +22,18 @@ To clean all compiled files during development:
 
     rm -rf target/public
 
-To create a production build run:
+
+## Testing
+Generate a minified JavaScript file from the ClojureScript file for deployment and user acceptance testing
 
     clojure -M:fig:live
 
-The ClojureScript application is compiled to the `docs/cljs-out/dev-main.js` file
+The ClojureScript application is compiled to the `docs/js/main.js` file.  Commit and push all changes in the `docs/` directory to the landing-page repository.
 
-Deploy a new version of the website by copying any changed files to the https://github.com/ldnclj/ldnclj.github.com repository
+View the [landing-page repository GitHub pages](https://ldnclj.github.io/landing-page/) to test the deployed application.
+
+## Deploy live website
+Deploy a new version of the live website by copying any changed files in `docs/` directory to the root of the https://github.com/ldnclj/ldnclj.github.com repository, retaining the data structure from `docs/`
 
 ## License
 
