@@ -26,6 +26,9 @@ To create a production build run:
 
     clojure -M:fig:live
 
+The ClojureScript application is compiled to the `docs/cljs-out/dev-main.js` file
+
+Deploy a new version of the website by copying any changed files to the https://github.com/ldnclj/ldnclj.github.com repository
 
 ## License
 

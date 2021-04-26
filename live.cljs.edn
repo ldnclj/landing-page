@@ -2,4 +2,4 @@
   :css-dirs     ["resources/public/css"]
   :auto-testing true}
 {:main org.londonclojurians.landing-page
- :output-to "docs/cljs-out/dev-main.js"}
+ :output-to "docs/js/main.js"}
