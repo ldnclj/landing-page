@@ -41,10 +41,10 @@
                            :logo-png "https://raw.githubusercontent.com/practicalli-john/london-clojurians-logo/master/london-clojurians-logo.png"}
                  :events
                  {:next {:url "https://www.meetup.com/London-Clojurians/events/276255080/"
-                         :logo "https://secure.meetupstatic.com/photos/event/9/b/5/8/600_494679768.jpeg"
-                         :date "27th April 2021"
-                         :time-is "https://time.is/1830_27_April_2021_in_London/"
-                         :summary "30 years of Internet through the lens of HTTP protocol versions diff. HTTP/3 brings the most significant changes we've seen so far, so let's review them alongside with reasoning and implications analysis."}
+                         :logo "https://secure-content.meetupstatic.com/images/https%3A%2F%2Fsecure.meetupstatic.com%2Fphotos%2Fevent%2F3%2Fe%2Fd%2Ff%2Fhighres_495736095.jpeg/600x337.jpg"
+                         :date "22nd June 2021"
+                         :time-is "https://time.is/1830_22_June_2021_in_London/"
+                         :summary "Explore the implementation of Malli seqex schemas"}
                   :meetup {:url "https://meetup.com/london-clojurians/"}}
                  :contact-channels
                  {:ask-clojure
