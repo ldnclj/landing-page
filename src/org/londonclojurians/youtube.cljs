@@ -47,4 +47,13 @@
     :title "What's So Hard About Writing A Compiler, Anyway? Oh"}
    {:id    "JWa4NhjWNHQ"
     :title "Building a RESTful Web API in Clojure - a new approach"}
-   ])
+   {:id    "o5FXMVeSgFI"
+    :title "30 years of Internet through the lens of the HTTP protocol"}
+   {:id    "vgxOKmZYDwU"
+    :title "Clojure JVM plus Erlang BEAM equals Clojerl"}
+   {:id    "3cwI_ENLqhU"
+    :title "Around the campfire with Polylith Architecture for Clojure"}
+   {:id    "5mUGu4RlwKE"
+    :title "High Performance Data With Clojure"}
+
+#_()   ])
